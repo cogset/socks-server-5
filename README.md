@@ -1,9 +1,9 @@
 ## Socks Server 5 in Docker
 [![build status badge](https://travis-ci.org/youmingdot/docker-socks-server-5.svg)](https://travis-ci.org/youmingdot/docker-socks-server-5)
 
-### Supported tags and respective `Dockerfile` links
+### Supported tags and respective Dockerfile links
 
-+ 3.8.9, 3.8, latest [(3.8/Dockerfile)](https://github.com/youmingdot/docker-socks-server-5/blob/master/3.8/Dockerfile)
++ `3.8.9`, `3.8`, `latest` [(3.8/Dockerfile)](https://github.com/youmingdot/docker-socks-server-5/blob/master/3.8/Dockerfile)
 
 ------
 ### Author
