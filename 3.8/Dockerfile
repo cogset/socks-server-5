@@ -1,4 +1,4 @@
-# SS5
+# Socks Server 5
 # AUTHOR You Ming
 
 FROM debian:jessie

@@ -10,7 +10,7 @@ install:
 before_script:
   - env | sort
   - cd "$VERSION"
-  - image="youmingdot/ss5:$VERSION"
+  - image="youmingdot/socks-server-5:$VERSION"
 
 script:
   - docker build -t "$image" .
