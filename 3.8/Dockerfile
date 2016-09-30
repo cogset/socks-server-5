@@ -32,6 +32,7 @@ RUN buildDeps="libpam0g-dev libldap2-dev libssl-dev gcc make wget" \
     && touch /var/log/ss5/ss5.log
 
 COPY docker-entrypoint.sh /usr/local/bin/
+RUN chmod +x /usr/local/bin/docker-entrypoint.sh
 
 ENTRYPOINT ["docker-entrypoint.sh"]
 
