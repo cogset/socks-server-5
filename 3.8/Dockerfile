@@ -5,7 +5,7 @@ FROM debian:jessie
 
 MAINTAINER You Ming <youming@funcuter.org>
 
-RUN group -r ss5 && group -r -g ss5 ss5
+RUN groupadd -r ss5 && useradd -r -g ss5 ss5
 
 ENV SS5_VERSION 3.8.9-8
 
