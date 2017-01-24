@@ -1,9 +1,9 @@
 # Socks Server 5
-# AUTHOR You Ming
+# Cogset Open Source Group
 
 FROM debian:jessie
 
-MAINTAINER You Ming <youming@funcuter.org>
+MAINTAINER Cogset <cogset@funcuter.org>
 
 RUN groupadd -r ss5 && useradd -r -g ss5 ss5
 
