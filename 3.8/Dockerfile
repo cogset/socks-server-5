@@ -12,7 +12,7 @@ ENV SS5_VERSION 3.8.9-8
 # Install
 RUN buildDeps="libpam0g-dev libldap2-dev libssl-dev gcc make wget" \
     && apt-get update \
-    && apt-get install -y --no-install-recommends libpam0g libssl1.0.0 $buildDeps \
+    && apt-get install -y --no-install-recommends ca-certificates libpam0g libssl1.0.0 $buildDeps \
     && wget -O ss5.tar.gz "http://downloads.sourceforge.net/project/ss5/ss5/$SS5_VERSION/ss5-$SS5_VERSION.tar.gz" \
     && mkdir -p /usr/src/ss5 \
     && tar -xzf ss5.tar.gz -C /usr/src/ss5 --strip-components=1 \
